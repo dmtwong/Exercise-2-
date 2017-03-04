@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Prior to the introoduction of Git, I used to find bug line by line and switch from script time to time. Using diff function is much faster and more reliable to human check as it won't overlook. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+The take away benefit is spending less time to identify problems; but I think essentially it will make me a more efficient programmer become more displine; have some time to plan out how before I code and make a small but meaning changes across each move. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Let's put it this way, the disadvantage of automatic saved is that the code might be saved in a status that have syntax errors. Maually saving with displine will make sure each commit is atleast compile and able to investigate some time in the future.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files in one commit allows programmer more easily to edit features in existing libraries; imagine a function is now taking extra argument and all other script using that function will might also need to change. Having all these code saving as a bundle will be benefit for package development. 
+
+How can you use the commands git log and git diff to view the history of files?
+Using git log to view a brief history of versions (when and who and the commit remark and simple stat of changes numb of line changed in changed files) 
+Using git diff to compare across two version 
+
+
+How might using version control make you more confident to make changes that could break something?
+VC allows us take more risk to try experiment longer code changes or all the changes for one additional features
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to try using Git as a tool to build my programmer portfolio
