@@ -12,3 +12,8 @@ It is becuase we would like to verify the recent changes on one side is exactly 
 forks is how we copy someone else remote repo to our github (but not to local yet); 
 clones is from remote repo to local repo (& local to local)
 branch happens in same local
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having a copy of the last know state of the remote stored locally allow us to see how the wok diverge between colloabotor and I and manualy merge after review. 
+
+
