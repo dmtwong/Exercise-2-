@@ -5,4 +5,16 @@ share the work,
 require to collaborate on some task,
 work while travelling. 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It is becuase we would like to verify the recent changes on one side is exactly what we want before merging. 
+
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks is how we copy someone else remote repo to our github (but not to local yet); 
+clones is from remote repo to local repo (& local to local)
+branch happens in same local
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having a copy of the last know state of the remote stored locally allow us to see how the wok diverge between colloabotor and I and manualy merge after review. 
+
